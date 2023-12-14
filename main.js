@@ -27,7 +27,7 @@ function sendMessage() {
     if (wait.innerHTML.length > 3) window.dotsGoingUp = false;
   }, 250);
 
-  fetch("//43.201.75.68:4000/openAI/message", {
+  fetch("http://43.201.75.68:4000/openAI/message", {
     method: "POST",
     headers: {
       accept: "application.json",
