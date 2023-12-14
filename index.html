@@ -2,6 +2,11 @@
   <head>
     <title>Coding Nexus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- https <-> http 간의 Mixed content Err 해결을 위한 코드 -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
     <link rel="stylesheet" href="./styles.css?v=8" />
     <link rel="icon" type="image/png" href="./logo.png" />
   </head>
