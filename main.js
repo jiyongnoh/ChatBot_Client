@@ -34,7 +34,7 @@ function sendMessage() {
     if (wait.innerHTML.length > 3) window.dotsGoingUp = false;
   }, 250);
 
-  fetch(`${localUrl}/openAI/message`, {
+  fetch(`${RelUrl}/openAI/message`, {
     method: "POST",
     headers: {
       accept: "application.json",
